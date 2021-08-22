@@ -10,6 +10,9 @@ build:
 install:
 	go install -i github.com/ecshreve/dmhelpz/cmd/dmhelpz
 
+gen/gqlclient:
+	cd pkg/gql && gqlgenc
+
 run-only:
 	bin/dmhelpz
 
