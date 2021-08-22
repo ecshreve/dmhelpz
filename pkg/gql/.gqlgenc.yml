@@ -1,0 +1,8 @@
+model:
+  filename: ./gen/models_gen.go
+client:
+  filename: ./gen/client.go
+endpoint:
+  url: https://www.dnd5eapi.co/graphql # Where do you want to send your request?
+query:
+  - "./query/*.graphql" # Where are all the query files located?

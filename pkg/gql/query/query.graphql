@@ -1,0 +1,9 @@
+query GetMonster($name: String!) {
+	monster(filter: { name: $name }) {
+		name
+		speed {
+			burrow
+			walk
+		}
+	}
+}
